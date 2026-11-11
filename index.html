@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Mike McDougall is a front-end developer and designer in Knoxville, Tennessee. Explore web design, React, and JavaScript projects.">
+  <meta name="theme-color" content="#0b0b10"><title>Mike McDougall — Developer & Designer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23b48af1'/%3E%3Ctext x='9' y='43' font-family='Arial' font-size='30' fill='white'%3EM.%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header wrap"><a class="wordmark" href="#" aria-label="Mike McDougall home">mike<span>.</span></a><nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a class="contact-nav" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a></nav></header>
+<main id="main">
+<section class="hero wrap" aria-labelledby="hero-title">
+  <div class="eyebrow"><span class="dot"></span> FRONT-END DEVELOPER & DESIGNER</div>
+  <div class="hero-composition"><h1 id="hero-title">A LITTLE<br>ART.<br><span class="serif">A LOT OF<br>CODE.</span></h1><div class="code-art" aria-hidden="true">
+    <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" focusable="false">
+      <defs>
+        <linearGradient id="code-face" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#eadcff"/><stop offset=".3" stop-color="#c193fa"/><stop offset=".6" stop-color="#8563dc"/><stop offset="1" stop-color="#728bff"/></linearGradient>
+        <linearGradient id="code-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6440a3"/><stop offset=".6" stop-color="#332057"/><stop offset="1" stop-color="#405ab8"/></linearGradient>
+        <radialGradient id="code-halo"><stop stop-color="#8953db" stop-opacity=".2"/><stop offset="1" stop-color="#8953db" stop-opacity="0"/></radialGradient>
+        <filter id="code-shadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#06040b" flood-opacity=".8"/></filter>
+        <g id="code-shape" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M240 128 L120 230 L240 332"/><path d="M400 100 L310 360"/><path d="M480 128 L600 230 L480 332"/></g>
+      </defs>
+      <ellipse cx="360" cy="245" rx="330" ry="210" fill="url(#code-halo)"/>
+      <g class="code-sculpture" filter="url(#code-shadow)">
+        <use href="#code-shape" transform="translate(13 17)" stroke="url(#code-edge)" stroke-width="43"/>
+        <use href="#code-shape" transform="translate(7 9)" stroke="url(#code-edge)" stroke-width="43"/>
+        <use href="#code-shape" stroke="url(#code-face)" stroke-width="43"/>
+        <use href="#code-shape" transform="translate(-3 -4)" stroke="#f0ddff" stroke-opacity=".35" stroke-width="2"/>
+      </g>
+      <g fill="#b4a4d0" font-family="monospace" font-size="12" letter-spacing="2"><text x="90" y="64">&lt;developer&gt;</text><text x="440" y="420">&lt;/creative&gt;</text></g>
+    </svg>
+  </div></div>
+  <div class="hero-bottom"><p>I’m Mike McDougall. I bring creative thinking and practical code together to build thoughtful experiences for the web.</p><a class="button" href="#work">Explore my work <span aria-hidden="true">↘</span></a></div>
+  <div class="hero-foot"><span>KNOXVILLE, TENNESSEE</span><span>DESIGN SENSE. DEVELOPER INSTINCT.</span><a href="#work" aria-label="Scroll to selected work">↓</a></div>
+</section>
+<section class="work wrap" id="work" aria-labelledby="work-title">
+  <div class="section-heading"><div><span class="eyebrow">01 / THE PROJECTS</span><h2 id="work-title">Selected work<span class="orange">.</span></h2></div><p>Design studies, interface experiments,<br>and the code behind them.</p></div>
+  <article class="project featured">
+    <button class="cover beats-preview" data-project="beats" aria-label="Explore the Beats Magazine redesign"><img src="images/beats-redesign.png" alt="Screenshot of the redesigned Beats homepage with Daft Punk, Animal Collective, Local Natives, and album reviews" loading="lazy" width="1880" height="1227"></button>
+    <div class="project-info"><div><span class="project-type">FEATURED REDESIGN / EDITORIAL</span><h3><button data-project="beats">Beats Magazine <span>↗</span></button></h3></div><p>A redesign of my 2018–2019 music magazine: bold editorial typography, warm neutrals, rounded artwork, and a clearer path from the homepage to the archive.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive design</span></div><div class="project-actions"><a class="text-action" href="demos/beats/index.html" target="_blank" rel="noopener noreferrer">View website <span aria-hidden="true">&#8599;</span></a><button class="text-action" data-project="beats">Project notes <span aria-hidden="true">&#8599;</span></button><a class="text-action" href="https://github.com/mcdieselpower/Beats" target="_blank" rel="noopener noreferrer">Source code <span aria-hidden="true">&#8599;</span></a></div></div>
+  </article>
+  <div class="project-grid">
+    <article class="project"><div class="cover super-preview site-preview"><iframe src="demos/super-review/index.html" title="Decorative preview of the Super Review redesign" loading="lazy" tabindex="-1" aria-hidden="true" inert></iframe><button class="preview-overlay" data-project="super" aria-label="Explore the Super Review redesign"></button><span class="preview-label" aria-hidden="true">LIVE SITE PREVIEW</span></div><div class="project-info"><div><span class="project-type">WEB REDESIGN / GAMING EDITORIAL</span><h3><button data-project="super">Super Review <span aria-hidden="true">&#8599;</span></button></h3></div><p>A dark editorial redesign of my original gaming archive, with oversized typography, responsive story layouts, searchable sections, and readable article pages.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive design</span></div><div class="project-actions"><a class="text-action" href="demos/super-review/index.html" target="_blank" rel="noopener noreferrer">View website <span aria-hidden="true">&#8599;</span></a><button class="text-action" data-project="super">Project notes <span aria-hidden="true">&#8599;</span></button><a class="text-action" href="https://github.com/mcdieselpower/Super-Review-Website" target="_blank" rel="noopener noreferrer">Source code <span aria-hidden="true">&#8599;</span></a></div></div></article>
+    <article class="project"><button class="cover hulu" data-project="hulu" aria-label="Explore Hulu UI Study"><span class="cover-top">STREAMING INTERFACE STUDY <span>03 / 03</span></span><span class="hulu-art" aria-hidden="true"><span class="hulu-title">hulu<span>UI STUDY</span></span><span class="film-strip"><i></i><i></i><i></i><i></i></span></span><span class="cover-bottom">COMPONENTS. CONTENT. CODE.<span class="round-arrow">↗</span></span></button><div class="project-info"><div><span class="project-type">FRONT-END / PRACTICE PROJECT</span><h3><button data-project="hulu">Hulu UI Study <span>↗</span></button></h3></div><p>A streaming interface clone exploring a component-based front end with React, Next.js, and Tailwind CSS.</p><div class="tags"><span>React</span><span>Next.js</span><span>Tailwind CSS</span></div><div class="project-actions"><button class="text-action" data-project="hulu">Project notes <span aria-hidden="true">&#8599;</span></button><a class="text-action" href="https://github.com/mcdieselpower/Hulu_clone" target="_blank" rel="noopener noreferrer">Source code <span aria-hidden="true">&#8599;</span></a></div></div></article>
+  </div>
+  <div class="small-project"><span class="eyebrow">ALSO IN THE TOOLBOX</span><div><h3>Basic Calculator</h3><p>A smaller HTML, CSS, and JavaScript project.</p></div><a href="https://github.com/mcdieselpower/basic_calculator" target="_blank" rel="noopener noreferrer">View source <span aria-hidden="true">↗</span></a></div>
+  <p class="caption">Beats shows an actual screenshot. Super Review shows a live preview of the redesigned site. Hulu uses an illustrative cover.</p>
+</section>
+<section class="about" id="about" aria-labelledby="about-title"><div class="wrap about-grid"><div><span class="eyebrow">02 / THE PERSON BEHIND THE PIXELS</span><h2 id="about-title">Creative by nature.<br>Practical by <span class="serif">design.</span></h2><div class="maker-art" aria-hidden="true"><span>&lt;/&gt;</span><span>✳</span><span>MAKE<br>SOMETHING<br>MATTER.</span></div></div><div class="about-copy"><p class="lead">I like making things that look good, work well, and make someone’s day a little easier.</p><p>I bring together graphic design studies, front-end development, and years in customer service. Working with people taught me to listen, solve problems, and keep the person using the product in mind.</p><p>That same curiosity follows me away from the screen: making art, painting miniatures, discovering music, and exploring a good hiking trail.</p><div class="skills"><div><h3>Development</h3><p>HTML · CSS · JavaScript<br>React · Next.js · Git & GitHub</p></div><div><h3>Design</h3><p>Visual hierarchy · Layout<br>Typography · Interface design</p></div></div></div></div></section>
+<section class="contact wrap" id="contact" aria-labelledby="contact-title"><span class="eyebrow">03 / WHAT’S NEXT?</span><div class="contact-grid"><h2 id="contact-title">Good things start<br>with a <span class="serif">hello.</span><span class="orange">↗</span></h2><div><p>Have a front-end opportunity or a creative project in mind? I’d love to connect.</p><form id="contact-form" method="post" aria-describedby="contact-status">
+  <div class="form-row"><div class="form-field"><label for="contact-name">Name</label><input id="contact-name" name="name" autocomplete="name" required maxlength="100"></div>
+  <div class="form-field"><label for="contact-email">Email</label><input id="contact-email" name="email" type="email" autocomplete="email" required maxlength="254"></div></div>
+  <div class="form-field"><label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="5" required maxlength="5000"></textarea></div>
+  <div class="form-trap" aria-hidden="true"><label for="contact-website">Leave this blank</label><input id="contact-website" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+  <button class="button" type="submit" disabled>Send message <span aria-hidden="true">&#8599;</span></button>
+  <p id="contact-status" class="form-status" role="status" aria-live="polite">The contact form is being connected. You can explore my work on GitHub below.</p>
+  <noscript><p>Please enable JavaScript to use this form.</p></noscript>
+</form><a class="text-action" href="https://github.com/mcdieselpower" target="_blank" rel="noopener noreferrer">Explore my GitHub <span aria-hidden="true">&#8599;</span></a></div></div></section>
+</main>
+<footer class="wrap"><a class="wordmark" href="#">mike<span>.</span></a><span>© <span id="year">2026</span> Mike McDougall</span><a href="#main">Back to top ↑</a></footer>
+<dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="eyebrow">PROJECT NOTES</span><button class="close" aria-label="Close project details">✕</button></div><h2 id="dialog-title"></h2><p id="dialog-intro" class="lead"></p><div id="dialog-content"></div><a id="dialog-link" class="button" target="_blank" rel="noopener noreferrer">Explore source on GitHub ↗</a></dialog>
+</body></html>
